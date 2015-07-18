@@ -3,48 +3,48 @@
   <channel>
     <title>Gena Example Blog</title>
     <description></description>
-    <link>http://60devs.github.io/gena-blog/</link>
-    <atom:link href="http://60devs.github.io/gena-blog//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 18 Jul 2015 16:34:06 GMT</pubDate>
-    <lastBuildDate>Sat, 18 Jul 2015 16:34:06 GMT</lastBuildDate>
+    <link>http://60devs.github.io/gena-blog</link>
+    <atom:link href="http://60devs.github.io/gena-blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 18 Jul 2015 16:40:15 GMT</pubDate>
+    <lastBuildDate>Sat, 18 Jul 2015 16:40:15 GMT</lastBuildDate>
     <generator>Any</generator>
         <item>
           <title>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit</title>
           <pubDate>Sat, 01 Nov 2014 23:14:00 GMT</pubDate>
-          <link>http://60devs.github.io/gena-blog//lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-5.html</link>
-          <guid isPermaLink="true">http://60devs.github.io/gena-blog//lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-5.html</guid>
+          <link>http://60devs.github.io/gena-bloglorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-5.html</link>
+          <guid isPermaLink="true">http://60devs.github.io/gena-bloglorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-5.html</guid>
 <category>lorem</category>
 <category>ipsum</category>
 </item>
         <item>
           <title>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit</title>
           <pubDate>Sat, 01 Nov 2014 23:14:00 GMT</pubDate>
-          <link>http://60devs.github.io/gena-blog//lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-4.html</link>
-          <guid isPermaLink="true">http://60devs.github.io/gena-blog//lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-4.html</guid>
+          <link>http://60devs.github.io/gena-bloglorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-4.html</link>
+          <guid isPermaLink="true">http://60devs.github.io/gena-bloglorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-4.html</guid>
 <category>lorem</category>
 <category>ipsum</category>
 </item>
         <item>
           <title>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit</title>
           <pubDate>Sat, 01 Nov 2014 23:14:00 GMT</pubDate>
-          <link>http://60devs.github.io/gena-blog//lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-3.html</link>
-          <guid isPermaLink="true">http://60devs.github.io/gena-blog//lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-3.html</guid>
+          <link>http://60devs.github.io/gena-bloglorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-3.html</link>
+          <guid isPermaLink="true">http://60devs.github.io/gena-bloglorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-3.html</guid>
 <category>lorem</category>
 <category>ipsum</category>
 </item>
         <item>
           <title>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit</title>
           <pubDate>Sat, 01 Nov 2014 23:14:00 GMT</pubDate>
-          <link>http://60devs.github.io/gena-blog//lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-2.html</link>
-          <guid isPermaLink="true">http://60devs.github.io/gena-blog//lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-2.html</guid>
+          <link>http://60devs.github.io/gena-bloglorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-2.html</link>
+          <guid isPermaLink="true">http://60devs.github.io/gena-bloglorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-2.html</guid>
 <category>lorem</category>
 <category>ipsum</category>
 </item>
         <item>
           <title>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit</title>
           <pubDate>Sat, 01 Nov 2014 23:14:00 GMT</pubDate>
-          <link>http://60devs.github.io/gena-blog//lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit.html</link>
-          <guid isPermaLink="true">http://60devs.github.io/gena-blog//lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit.html</guid>
+          <link>http://60devs.github.io/gena-bloglorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit.html</link>
+          <guid isPermaLink="true">http://60devs.github.io/gena-bloglorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit.html</guid>
 <category>lorem</category>
 <category>ipsum</category>
 </item>
