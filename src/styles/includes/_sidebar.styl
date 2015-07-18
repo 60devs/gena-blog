@@ -1,0 +1,12 @@
+.sidebar
+  margin-left: 3em;
+
+@media (--up-to-smartphone-landscape)
+  .sidebar
+    margin-left: 0;
+
+  .verticalOnMobile[layout][horizontal]
+    flex-direction: column
+
+  .fullWidthOnMobile
+    width: 100%

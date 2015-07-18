@@ -1,0 +1,27 @@
+# Site settings
+title: Gena Example Blog
+email: gena@60devs.com
+description:
+url: "https://gena-example.blog" # the base hostname & protocol for your site
+twitter_username: "60devs"
+github_username: "60devs"
+permalink: /:title.html
+deploy: false
+sitemap:
+  changefreq: weekly
+pages_order:
+  - blog
+  - about
+build:
+  - handlebars
+  - public
+  - styles
+  - js
+  - sitemap
+  - rss
+dev-build:
+  - handlebars
+  - public
+  - styles-lite
+  - dev-js
+highlightjs_root: 'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/'

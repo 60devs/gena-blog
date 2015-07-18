@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  {{#block "head"}}
+    {{{embed "head"}}}
+  {{/block}}
+  <body>
+    <div class="vclViewport">
+        <div class="vclApp">
+          {{#block "header" class="vclLayoutWidth"}}
+            {{{embed "header"}}}
+          {{/block}}
+          <section class="vclContentArea vclLayoutWidth" role="main">
+            <div class="verticalOnMobile" horizontal layout>
+              <div flex four self-stretch>
+                {{#block "content"}}
+                  {{{content}}}
+                {{/block}}
+              </div>
+              <div flex two self-start class="sidebar">
+                  {{#block "sidebar"}}
+                    {{{embed "sidebar"}}}
+                  {{/block}}
+              </div>
+            </div>
+          </section>
+          {{#block "footer" class="vclLayoutWidth"}}
+            {{{embed "footer"}}}
+          {{/block}}
+        </div>
+    </div>
+  </body>
+</html>

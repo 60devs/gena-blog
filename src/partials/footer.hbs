@@ -1,0 +1,33 @@
+<footer class="vclApplicationFooter" role="contentinfo">
+    <div layout horizontal>
+      <div class="vclColumn">
+        <nav class="vclNavigation vclHorizontal">
+          <ul>
+
+            <li role="presentation">
+              <div class="vclIcogram">
+                <a class="vclText" href="mailto:{{site.email}}">{{site.title}} &copy; 2015</a>
+              </div>
+            </li>
+
+            {{#if site.github_username}}
+              <li role="presentation">
+                <div class="vclIcogram">
+                  <a class="vclText" href="https://github.com/{{site.github_username}}"><div class="vclIcon fa fa-github fa-lg" aria-hidden="true" aria-label="github" role="img"></div></a>
+                </div>
+              </li>
+            {{/if}}
+
+            {{#if site.twitter_username}}
+              <li role="presentation">
+                <div class="vclIcogram">
+                  <a class="vclText" href="https://twitter.com/{{site.twitter_username}}"><div class="vclIcon fa fa-twitter fa-lg" aria-hidden="true" aria-label="twitter" role="img"></div></a>
+                </div>
+              </li>
+            {{/if}}
+          </ul>
+        </nav>
+    </div>
+  </div>
+  <script src="/js/main.js" type="text/javascript"></script>
+</footer>

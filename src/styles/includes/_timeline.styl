@@ -1,0 +1,120 @@
+.vclTimeline
+  position: relative
+  padding: 2em 0 0 0
+
+.vclTimeline::before
+  content: ''
+  position: absolute
+  top: 0
+  left: 0.4em
+  height: 100%
+  width: 4px
+  background: rgba(0, 0, 0, 0.49)
+
+.vclTimelineImage
+  background: #c0392b
+
+.vclTimelineBlock
+  position: relative
+  margin: 2em 0
+
+.vclTimelineBlock:after
+  content: ""
+  display: table
+  clear: both
+
+.vclTimelineBlock:first-child
+  margin-top: 0
+
+.vclTimelineBlock:last-child
+  margin-bottom: 0
+
+.vclTimelineImage
+  position: absolute
+  top: 0
+  left: 0
+  width: 1em
+  height: 1em
+  border-radius: 50%
+  box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.05), 0 3px 0 4px rgba(0, 0, 0, 0.35)
+
+.vclTimelineContent
+  position: relative
+  margin-left: 2em
+  background: white
+  border-radius: 0.25em
+  padding: 1em
+  box-shadow: 0 3px 0 #d7e4ed
+  top: -1.5em
+
+.vclTimelineContent:after
+  content: ""
+  display: table
+  clear: both
+
+.vclTimelineContent h2
+  color: #303e49
+  margin-top: 0
+  margin-bottom: 0.5em
+
+.vclTimelineContent p
+  margin: 1em 0
+  line-height: 1.6
+
+.vclTimelineDate
+  position: absolute
+  left: -10em
+  top: 1.33em
+  float: left
+  font-size: 16px
+  font-size: 1rem
+
+@media (--sm-viewport)
+  .vclTimelineDate
+    position: relative
+    float: inherit
+    left: 0
+    top: 0
+
+@media (--md-viewport)
+  .vclTimelineDate
+    position: relative
+    float: inherit
+    left: 0
+    top: 0
+
+.vclTimelineContent.bounce-in
+  visibility: visible
+  animation-name: bounce
+  animation-duration: 1s
+  transform-origin: center bottom
+
+.vclTimelineImage.bounce-in
+  visibility: visible
+  animation-name: bounce
+  animation-duration: 1s;
+  transform-origin: center bottom
+
+@keyframes bounce
+
+  0%, 60%, 75%, 90%, 100%
+    transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+
+  0%
+    opacity: 0;
+    transform: translate3d(0, 3000px, 0);
+
+  60%
+    opacity: 1;
+    transform: translate3d(0, -20px, 0);
+
+  75%
+    transform: translate3d(0, 10px, 0);
+
+  90%
+    transform: translate3d(0, -5px, 0);
+
+  100%
+    transform: translate3d(0, 0, 0);
+
+

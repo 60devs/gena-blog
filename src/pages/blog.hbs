@@ -1,0 +1,25 @@
+{{#extend 'default'}}
+  {{#content 'content'}}
+    <div class="">
+
+      <h1 class=""></h1>
+
+      <section class="vclTimeline">
+        {{#each @root.site.posts}}
+          <div class="vclTimelineBlock">
+            <div class="vclTimelineImage vclVisibilityHidden">
+            </div>
+            <div class="vclTimelineContent vclVisibilityHidden">
+              <div class="vclTimelineDate"> {{formatDate date day="numeric" month="short" year="numeric"}} </div>
+              <h2>
+                <a class="vclPostLink" href="{{url}}">{{title}}</a>
+              </h2>
+              <div class="vclPostMeta"> by {{author}}</div>
+            </div>
+          </div>
+        {{/each}}
+      </section>
+
+    </div>
+  {{/content}}
+{{/extend}}

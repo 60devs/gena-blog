@@ -1,0 +1,30 @@
+<header class="">
+  <div class="vclApplicationHeader vclGridRow">
+    <div role="banner" class="vclGridSpan-5 fullWidthOnMobile">
+      <a class="vclBrandLogo" href="{{site.baseurl}}/">
+        <img src="/img/logo.png" >
+      </a>
+    </div>
+    <div class="vclGridSpan-10 fullWidthOnMobile">
+      <nav class="vclNavigation">
+        <ul horizontal layout end end-justified>
+          {{#each site.pages}}
+            {{#if title}}
+              <li role="presentation">
+                <a class="vclIcogram" href="{{url}}">
+                  <span class="vclText">{{title}}</span>
+                </a>
+              </li>
+            {{/if}}
+          {{/each}}
+          <li role="presentation">
+            <a class="vclIcogram" href="/feed.xml">
+              <span class="vclIcon fa fa-rss" aria-hidden="true" aria-label="rss" role="img"></span>
+              <span class="vclText">RSS</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
