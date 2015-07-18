@@ -2,42 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://gena-example.blog/about.html</loc>
-        <lastmod>2015-07-18T16:29:38.362Z</lastmod>
+        <lastmod>2015-07-18T16:31:58.062Z</lastmod>
         <changefreq>weekly</changefreq>
     </url>
     <url>
         <loc>https://gena-example.blog/blog.html</loc>
-        <lastmod>2015-07-18T16:29:38.386Z</lastmod>
+        <lastmod>2015-07-18T16:31:58.086Z</lastmod>
         <changefreq>weekly</changefreq>
     </url>
     <url>
         <loc>https://gena-example.blog/</loc>
-        <lastmod>2015-07-18T16:29:38.410Z</lastmod>
+        <lastmod>2015-07-18T16:31:58.110Z</lastmod>
         <changefreq>weekly</changefreq>
     </url>
     <url>
         <loc>https://gena-example.blog/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-2.html</loc>
-        <lastmod>2015-07-18T16:29:38.234Z</lastmod>
+        <lastmod>2015-07-18T16:31:57.950Z</lastmod>
         <changefreq>weekly</changefreq>
     </url>
     <url>
         <loc>https://gena-example.blog/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-3.html</loc>
-        <lastmod>2015-07-18T16:29:38.266Z</lastmod>
+        <lastmod>2015-07-18T16:31:57.978Z</lastmod>
         <changefreq>weekly</changefreq>
     </url>
     <url>
         <loc>https://gena-example.blog/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-4.html</loc>
-        <lastmod>2015-07-18T16:29:38.302Z</lastmod>
+        <lastmod>2015-07-18T16:31:58.006Z</lastmod>
         <changefreq>weekly</changefreq>
     </url>
     <url>
         <loc>https://gena-example.blog/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-5.html</loc>
-        <lastmod>2015-07-18T16:29:38.330Z</lastmod>
+        <lastmod>2015-07-18T16:31:58.034Z</lastmod>
         <changefreq>weekly</changefreq>
     </url>
     <url>
         <loc>https://gena-example.blog/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit.html</loc>
-        <lastmod>2015-07-18T16:29:38.198Z</lastmod>
+        <lastmod>2015-07-18T16:31:57.910Z</lastmod>
         <changefreq>weekly</changefreq>
     </url>
 </urlset>
