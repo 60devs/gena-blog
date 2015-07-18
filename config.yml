@@ -1,12 +1,15 @@
 # Site settings
 title: Gena Example Blog
-email: gena@60devs.com
+email: hello@60devs.com
 description:
-url: "https://gena-example.blog" # the base hostname & protocol for your site
+url: "http://60devs.github.io/gena-blog" # the base hostname & protocol for your site
 twitter_username: "60devs"
 github_username: "60devs"
 permalink: /:title.html
-deploy: false
+deploy:
+  method: 'github'
+  url: 'git@github.com:60devs/gena-blog.git'
+  branch: 'gh-pages'
 sitemap:
   changefreq: weekly
 pages_order:
