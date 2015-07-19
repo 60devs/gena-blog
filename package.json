@@ -31,6 +31,7 @@
     "vcl-typography": "git://github.com/vcl/typography"
   },
   "devDependencies": {
-    "gena": "^0.1.2"
+    "gena": "^0.1.2",
+    "gulp-print": "^1.1.0"
   }
 }
